@@ -25,7 +25,7 @@ continue their game from where they left.
 7-) The game used to contain a second playable character that the user can swap between the main character and the second character,
 it was later removed because the game took a different direction.
 
----********************************---
+---********************************--- 
 
 
 
