@@ -1,0 +1,1 @@
+{"leftKey":102,"rightKey":100,"jumpKey":32,"attackKey":323,"specialOneKey":324,"dashKey":304}

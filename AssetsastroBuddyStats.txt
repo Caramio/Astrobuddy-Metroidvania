@@ -1,0 +1,1 @@
+{"astroHasWings":false,"astroHasSword":false,"astroHasDash":false,"astroPickedRedGem":false}

@@ -1,0 +1,1 @@
+{"masterVolume":-20.0,"musicVolume":20.0,"soundEffectsVolume":10.0}
