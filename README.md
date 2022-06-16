@@ -1,5 +1,4 @@
 # Astrobuddy-Metroidvania
-Metroidvania game
 
 
                                           ---------------------------GAME INFORMATION---------------------------
