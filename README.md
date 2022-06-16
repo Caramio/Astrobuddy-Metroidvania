@@ -62,7 +62,7 @@ The next scene referenced from "sceneToLoad" will start to load async to save so
 **IEnumerator fadeScreenRoutine():**<br />
 The player characters RigidBody.constraints will be frozen and the alpha component of a dark background will slowly be set from 0 to 1 to replicate a screen fade effect. Once the screen is fully faded, since the scene was already loaded async, our player will be transfered to the targeted scene.  
   
-  
+ <br /><br /><br /><br /><br /> 
 
  ##                                                                Entry Handler Scripts
   
