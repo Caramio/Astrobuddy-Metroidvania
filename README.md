@@ -25,16 +25,40 @@ continue their game from where they left.
 7-) The game used to contain a second playable character that the user can swap between the main character and the second character,
 it was later removed because the game took a different direction.
 
-                                                         ---********************************--- 
+                            
 
-
-
----------------------------THE MEANING BEHIND CERTAIN SCRIPTS---------------------------
+                                  ---------------------------THE MEANING BEHIND CERTAIN SCRIPTS---------------------------
 
 Here, a general explanation to the logic behind the game will be given. This project started as a hobby project to learn how to implement a metroidvania type game,
 It is not fully commented and optimized due to it being a learning experience for myself as I worked on the game solo. Commenting each line with maximum detail at this
 point would be a bigger commitment rather than explaining certain specific scripts here, so the main scripts will be explained here.
 
+<br />
+<br />
 
-1-)
+                                             ---------------------SwapHandler Scripts---------------------
+<br />
+<scene name>SwapHandler scripts(batBossRoomSwapHandler,goblinCitySceneSwapHandler etc...) are methods that allow the player to travel between different scenes
+in the game. This script will be attached to an object at the edge of the screen, that is invisible to the player(It will be at the boundary of the screen), this object will have a trigger collider that will call the SwapHandler script once it collides with the player character.
+  
+The SwapHandler methods will simply load the scene that is linked to the entered doors name, for example, if the player enters "entryTobatBossChaseFromBossRoom", the "batBossChaseRoom" scene will be loaded while we are in the "batBossRoom" scene.
+  
+While swapping between scenes, the SwapHandler will create or overwrite a JSON file that contains the relevant information for the scene that was swapped FROM. For example, if we are in the "batBossRoom" scene and we killed the main boss inside this scene, the JSON file will store the variable "bossWasKilled" as "true" so we don't encounter the boss again when we reload the scene.
+  
+Each individual scene has its own SwapHandler, it will be named after the respective scene. All of these SwapHandlers have the same methods inside them, the only different is the data to save, which is different for each scene.
+  
+***Summary of the methods inside the SwapHandler***
 
+**WriteToJSON():**
+Create or overwrite an already existing JSON file with the relevant saved data from the scene.
+  
+**handleSceneSwap():**
+Contains a reference to the targeted scene by name, for example, if the GameObject that the SwapHandler is attachted to is called "entryTobatBossChaseFromBossRoom"
+the "sceneToLoad" string will  be set as "bossChaseBat", which means that scene will be loaded later.
+  
+**IEnumerator loadAsyncScene():**
+The next scene referenced from "sceneToLoad" will start to load async to save some time between loading screens.
+  
+**IEnumerator fadeScreenRoutine():**
+The player characters RigidBody.constraints will be frozen and the alpha component of a dark background will slowly be set from 0 to 1 to replicate a screen fade effect. Once the screen is fully faded, since the scene was already loaded async, our player will be transfered to the targeted scene.  
+ 
