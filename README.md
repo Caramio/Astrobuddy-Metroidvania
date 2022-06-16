@@ -1,7 +1,7 @@
 # Astrobuddy-Metroidvania
 
 
-                                          ---------------------------GAME INFORMATION---------------------------
+#                                         ---------------------------GAME INFORMATION---------------------------
 <br />
 "Astrobuddy: Lost in Space" is a 2D metroidvania style game prototype.
 
@@ -27,7 +27,7 @@ it was later removed because the game took a different direction.
 
                             
 
-                                  ---------------------------THE MEANING BEHIND CERTAIN SCRIPTS---------------------------
+#                                                             THE MEANING BEHIND CERTAIN SCRIPTS
 
 Here, a general explanation to the logic behind the game will be given. This project started as a hobby project to learn how to implement a metroidvania type game,
 It is not fully commented and optimized due to it being a learning experience for myself as I worked on the game solo. Commenting each line with maximum detail at this
@@ -36,7 +36,7 @@ point would be a bigger commitment rather than explaining certain specific scrip
 <br />
 <br />
 
-                                             ---------------------SwapHandler Scripts---------------------
+##                                                                 SwapHandler Scripts
 <br />
 <scene name>SwapHandler scripts(batBossRoomSwapHandler,goblinCitySceneSwapHandler etc...) are methods that allow the player to travel between different scenes
 in the game. This script will be attached to an object at the edge of the screen, that is invisible to the player(It will be at the boundary of the screen), this object will have a trigger collider that will call the SwapHandler script once it collides with the player character.
@@ -47,18 +47,29 @@ While swapping between scenes, the SwapHandler will create or overwrite a JSON f
   
 Each individual scene has its own SwapHandler, it will be named after the respective scene. All of these SwapHandlers have the same methods inside them, the only different is the data to save, which is different for each scene.
   
-***Summary of the methods inside the SwapHandler***
+###                                                      Summary of the methods inside the SwapHandler
 
-**WriteToJSON():**
+**WriteToJSON():**<br />
 Create or overwrite an already existing JSON file with the relevant saved data from the scene.
   
-**handleSceneSwap():**
+**handleSceneSwap():**<br />
 Contains a reference to the targeted scene by name, for example, if the GameObject that the SwapHandler is attachted to is called "entryTobatBossChaseFromBossRoom"
 the "sceneToLoad" string will  be set as "bossChaseBat", which means that scene will be loaded later.
   
-**IEnumerator loadAsyncScene():**
+**IEnumerator loadAsyncScene():**<br />
 The next scene referenced from "sceneToLoad" will start to load async to save some time between loading screens.
   
-**IEnumerator fadeScreenRoutine():**
+**IEnumerator fadeScreenRoutine():**<br />
 The player characters RigidBody.constraints will be frozen and the alpha component of a dark background will slowly be set from 0 to 1 to replicate a screen fade effect. Once the screen is fully faded, since the scene was already loaded async, our player will be transfered to the targeted scene.  
- 
+  
+  
+
+ ##                                                                Entry Handler Scripts
+  
+Entry handlers are simply used to determine where the player should be when entering the scene. For example, the "Prison" scene has 2 different entrances, which means it can be accessed from 2 other scenes, the upper entrace and lower entrace need to be distinguished, this is done in the "Entry Handler" scripts.
+
+###                                                      Summary of the methods inside the SwapHandler
+  
+**entranceHandler():**<br />
+This method will simply access the "sceneSwapHolder" class and access the public static string called enteredWay, which is a simple reference to the "Scene Swap Handler" GameObject that the player last touched. Once the entered way is clear, the location that the player should end up can be determined. Once the method runs, it will put the player in the proper position and unfreeze its previously frozen RigidBody.constraints(frozen from the "Scene Swap Handlers").
+  
