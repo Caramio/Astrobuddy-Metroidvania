@@ -72,4 +72,18 @@ Entry handlers are simply used to determine where the player should be when ente
   
 **entranceHandler():**<br />
 This method will simply access the "sceneSwapHolder" class and access the public static string called enteredWay, which is a simple reference to the "Scene Swap Handler" GameObject that the player last touched. Once the entered way is clear, the location that the player should end up can be determined. Once the method runs, it will put the player in the proper position and unfreeze its previously frozen RigidBody.constraints(frozen from the "Scene Swap Handlers").
+
+ <br /><br /><br /><br /><br /> 
   
+##                                                                Changes Holder Scripts
+  <br />
+  
+Changes Holder scripts check for the data from the saved JSON files and adjusts the current scene that the play entered to reflect the progress of the game. For example, if a boss was killed, the changes holder will execute inside "Start()" and adjust certain variables (boss alive status, door open status etc...) according to the progress of the player.
+
+There is no specific method inside these changes holder scripts, they are all written inside the "Start()" method instead.
+  
+ 
+ <br /><br /><br /><br /><br /> 
+  
+  ##                                                              Boss/NPC AI Scripts
+  <br />
