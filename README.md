@@ -108,9 +108,11 @@ The above scripts are the general scripts that I found important to mention, the
   
 **[Goblin King Boss Video](https://www.youtube.com/watch?v=3wArXUJ80jU&feature=youtu.be&ab_channel=Caramio)** 
 <br />
+<br />
 **[Ancient Matriarch Boss Video](https://youtu.be/OX1Cttlo1d8)** 
 <br />
 <br />
+**[Mage Council Boss Video](https://youtu.be/nlRatg-Wq7M)** 
   
 <br />
 <br />
