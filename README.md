@@ -105,17 +105,41 @@ The above scripts are the general scripts that I found important to mention, the
 **NOTE: The videos are taken through the Unity editor rather than the full Unity build to make it easier to navigate through the many levels and take the recordings(There are around 30 levels). Although the game has a Dev Console to access whichever level the user wants, it is still more efficient to use the Unity Editor to take the recordings, the only problem is that the Unity Editor in maximized mode distorts the resolution and some of the UI elements etc look out of place(the game was not made for dynamic resolution yet, even though it was in the plans).**
   
  <br />  <br />
-  
+
+#                                                              Boss Videos 
 **[Goblin King Boss Video](https://www.youtube.com/watch?v=3wArXUJ80jU&feature=youtu.be&ab_channel=Caramio)** 
 <br />
 <br />
 **[Ancient Matriarch Boss Video](https://youtu.be/OX1Cttlo1d8)** 
 <br />
 <br />
-**[Mage Council Boss Video](https://youtu.be/nlRatg-Wq7M)** 
+**[Mage Council Boss Video](https://youtu.be/nlRatg-Wq7M)**   
+<br />
+#                                                              Puzzle Videos
+**[Clone Puzzle Cavern of Illusions](https://youtu.be/SoGVpOJSIDU)**   
+<br />
+<br />
+**[Musical and Questions Puzzle with Cutscene](https://youtu.be/YRskA8IHTo0)**   
+<br />
+<br />
+**[Snowball Puzzle](https://youtu.be/X2sH9ylXb3Y)** 
+  <br />
+<br />
+**[Snowy Lake Puzzle](https://youtu.be/iULK4lOXrcI)**   
+  <br />
+<br />
   
+  <br />
 <br />
+  
+  <br />
 <br />
+  
+  <br />
 <br />
+  
+  <br />
 <br />
+  
+  <br />
 <br />
