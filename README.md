@@ -102,3 +102,5 @@ The above scripts are the general scripts that I found important to mention, the
   
   There will be YouTube videos that briefly show/explain some of the concepts that are within the game, this will act as a quick preview of the game.
   
+**NOTE: The videos are taken through the Unity editor rather than the full Unity build to make it easier to navigate through the many levels and take the recordings(There are around 30 levels). Although the game has a Dev Console to access whichever level the user wants, it is still more efficient to use the Unity Editor to take the recordings, the only problem is that the Unity Editor in maximized mode distorts the resolution and some of the UI elements etc look out of place(the game was not made for dynamic resolution yet, even though it was in the plans).**
+  
