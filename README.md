@@ -123,23 +123,22 @@ The above scripts are the general scripts that I found important to mention, the
 <br />
 <br />
 **[Snowball Puzzle](https://youtu.be/X2sH9ylXb3Y)** 
-  <br />
+<br />
 <br />
 **[Snowy Lake Puzzle](https://youtu.be/iULK4lOXrcI)**   
-  <br />
 <br />
-  
-  <br />
 <br />
-  
-  <br />
+**[Starting Level with Puzzle](https://youtu.be/DB36q-fjp2M)**   
 <br />
-  
-  <br />
+#                                                              Platforming Videos
+**[Ruined Kingdom Platforming](https://youtu.be/fGP1BBD2zrY)**     
 <br />
-  
-  <br />
 <br />
-  
-  <br />
+**[Town Platforming](https://youtu.be/GXafXro9P1w)**       
 <br />
+#                                                              Miscellaneous Videos
+**[Options Menu](https://youtu.be/sruf0dXFM-o)**    
+<br />
+<br />
+**[Scene Passages](https://youtu.be/FCTaY9Y_vxk)**      
+
