@@ -93,10 +93,12 @@ The Boss/NPC AI are made using state machine behaviour. The scripts have differe
   
  <br />
   
-  
+---------------------------------  ---------------------------------  ---------------------------------  
 The above scripts are the general scripts that I found important to mention, there are of course many other scripts that help form this game, from the player controls to the inventory system, but these are the ones that needed specific descriptions.
-  
+---------------------------------  ---------------------------------  ---------------------------------    
    <br /><br /><br /><br /><br /> 
   
   ##                                                              Video Demonstrations
+  
+  There will be YouTube videos that briefly show/explain some of the concepts that are within the game, this will act as a quick preview of the game.
   
