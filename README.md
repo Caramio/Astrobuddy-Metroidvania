@@ -51,7 +51,7 @@ Each individual scene has its own SwapHandler, it will be named after the respec
 
 **WriteToJSON():**<br />
 Create or overwrite an already existing JSON file with the relevant saved data from the scene.
-  
+   
 **handleSceneSwap():**<br />
 Contains a reference to the targeted scene by name, for example, if the GameObject that the SwapHandler is attachted to is called "entryTobatBossChaseFromBossRoom"
 the "sceneToLoad" string will  be set as "bossChaseBat", which means that scene will be loaded later.
