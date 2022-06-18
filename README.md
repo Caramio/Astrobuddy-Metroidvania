@@ -88,4 +88,15 @@ There is no specific method inside these changes holder scripts, they are all wr
   ##                                                              Boss/NPC AI Scripts
   <br />
   
-The Boss/NPC AI are made using state machine behaviour. The scripts have different enums in them that act as states for out state machine behaviour, for example, the script will start the NPC in the idle state, while in this state, the NPC will be raycasting and checking around itself to see if the player is near, if the player is within the NPC's radius, the state machine will move from the "Idle" state to the "Combat" state, and within the combat state there will be different
+The Boss/NPC AI are made using state machine behaviour. The scripts have different enums in them that act as states for out state machine behaviour, for example, the script will start the NPC in the idle state, while in this state, the NPC will be raycasting and checking around itself to see if the player is near, if the player is within the NPC's radius, the state machine will move from the "Idle" state to the "Combat" state, and within the combat state there will be different options that the NPC can use, for example, the Bat Boss can shoot a laser, or disappear and then dive towards the player, this will be determined by a random number generator.
+
+  
+ <br />
+  
+  
+The above scripts are the general scripts that I found important to mention, there are of course many other scripts that help form this game, from the player controls to the inventory system, but these are the ones that needed specific descriptions.
+  
+   <br /><br /><br /><br /><br /> 
+  
+  ##                                                              Video Demonstrations
+  
